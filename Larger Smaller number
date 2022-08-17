@@ -1,0 +1,121 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPJhRmGYM2Qb/yX8jcKUHFl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/CMouparna/trial_repo/blob/main/Larger%20Smaller%20number\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GpDmAcnheesj",
+        "outputId": "6df6f122-0829-43b5-85d7-2c4416b71ac7"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter the first number:5\n",
+            "Enter the second number:8\n"
+          ]
+        }
+      ],
+      "source": [
+        "n1=int(input('Enter the first number:'))\n",
+        "n2=int(input('Enter the second number:'))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile script1.py\n",
+        "if n1>n2:\n",
+        "print('The Number',n1,'is greater than',n2)\n",
+        "else:\n",
+        "print('The Number',n2,'is greater than',n2)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1l_qizTcgmPf",
+        "outputId": "36d1ad63-2fc9-4fc5-f160-cee32978c939"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Overwriting script1.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "%%writefile script2.py\n",
+        "if n1<n2:\n",
+        "print('The Number',n1,'is smaller than',n2)\n",
+        "else:\n",
+        "print('The number',n2,'is smaller than',n1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7r3SPu6hhXEp",
+        "outputId": "2b072ca7-2ce9-4c82-bb36-dc5da698a8ec"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Writing script2.py\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "lfMhme9WiKgA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
